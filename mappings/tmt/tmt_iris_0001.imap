@@ -1,0 +1,15 @@
+header = {
+    'derived_from' : '',
+    'instrument' : 'IRIS',
+    'mapping' : 'INSTRUMENT',
+    'name' : 'tmt_iris_0001.imap',
+    'observatory' : 'TMT',
+    'parkey' : ('REFTYPE',),
+    'sha1sum' : '5360c2a2f3af39e028b29120240f060cd8a44553',
+}
+
+selector = {
+    'DARK' : 'N/A',
+    'DFLAT' : 'N/A',
+    'FLAT' : 'tmt_iris_flat_0001.rmap',
+}
