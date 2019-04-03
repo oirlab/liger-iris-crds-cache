@@ -12,4 +12,5 @@ selector = {
     'DARK' : 'N/A',
     'DFLAT' : 'N/A',
     'FLAT' : 'tmt_iris_flat_0001.rmap',
+    'MASK' : 'tmt_iris_mask_0001.rmap',
 }
