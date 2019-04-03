@@ -5,7 +5,7 @@ header = {
     'name' : 'tmt_iris_0001.imap',
     'observatory' : 'TMT',
     'parkey' : ('REFTYPE',),
-    'sha1sum' : '5360c2a2f3af39e028b29120240f060cd8a44553',
+    'sha1sum' : '1472715c55a2c748dbea142eb34763bb974f5325',
 }
 
 selector = {

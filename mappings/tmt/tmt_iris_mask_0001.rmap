@@ -7,7 +7,7 @@ header = {
     'name' : 'tmt_iris_mask_0001.rmap',
     'observatory' : 'TMT',
     'parkey' : (('META.INSTRUMENT.DETECTOR', 'META.SUBARRAY.NAME'), ('META.OBSERVATION.DATE', 'META.OBSERVATION.TIME')),
-    'sha1sum' : 'ec069c733caf0de35ccc5386743e07bd9772c43c',
+    'sha1sum' : '1ddb5e5ff9088bddebd1eee7f3617b12232cc856',
     'substitutions' : {
         'META.SUBARRAY.NAME' : {
             'GENERIC' : 'N/A',
