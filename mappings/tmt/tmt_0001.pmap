@@ -6,9 +6,9 @@ header = {
     'name' : 'tmt_0001.pmap',
     'observatory' : 'TMT',
     'parkey' : ('META.INSTRUMENT.NAME',),
-    'sha1sum' : 'c9899372c2ccc32bf216627fe7bc76ef00ecd569',
+    'sha1sum' : '0895daddfafcea2bbfea29b30ba64f63da40fd87',
 }
 
 selector = {
-    'IRIS' : 'tmt_iris_0001.imap',
+    'IRIS' : 'tmt_iris_0003.imap',
 }

@@ -1,0 +1,22 @@
+header = {
+    'classes' : ('Match', 'UseAfter'),
+    'derived_from' : 'NONE',
+    'filekind' : 'DARK',
+    'instrument' : 'IRIS',
+    'mapping' : 'REFERENCE',
+    'name' : 'tmt_iris_dark_0001.rmap',
+    'observatory' : 'TMT',
+    'parkey' : (('META.INSTRUMENT.DETECTOR', 'META.SUBARRAY.NAME'), ('META.OBSERVATION.DATE', 'META.OBSERVATION.TIME')),
+    'sha1sum' : 'c215d81e5e24cc2ec543e5b6088df31daddeadda',
+    'substitutions' : {
+        'META.SUBARRAY.NAME' : {
+            'GENERIC' : 'N/A',
+        },
+    },
+}
+
+selector = Match({
+    ('IRIS1', 'FULL') : UseAfter({
+        '1900-01-01 00:00:00' : 'tmt_iris_dark_0001.fits',
+    }),
+})
