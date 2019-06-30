@@ -3,6 +3,10 @@
 Checkout this repository locally:
 
     git clone https://github.com/oirlab/tmt-crds-cache
+
+The largest files are not on Github, get them from Galactica at:
+
+    /home/azonca/crds_cache/references/tmt/iris
     
 Configure CRDS to use this folder and the TMT configuration file:
 
