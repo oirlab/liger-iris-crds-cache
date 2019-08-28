@@ -1,4 +1,3 @@
-The larger files in this folder are not stored on Github,
-get a copy from Galactica at:
+The larger files in this folder are stored 
+using [Git LFS](https://help.github.com/en/articles/versioning-large-filest LFS)
 
-    /home/azonca/crds_cache/references/tmt/iris
