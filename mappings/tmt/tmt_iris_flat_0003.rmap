@@ -1,0 +1,17 @@
+header = {
+    'classes' : ('Match', 'UseAfter'),
+    'derived_from' : 'tmt_iris_flat_0002.rmap',
+    'filekind' : 'FLAT',
+    'instrument' : 'IRIS',
+    'mapping' : 'REFERENCE',
+    'name' : 'tmt_iris_flat_0001.rmap',
+    'observatory' : 'TMT',
+    'parkey' : (('META.INSTRUMENT.DETECTOR', 'META.INSTRUMENT.FILTER', 'META.INSTRUMENT.PUPIL'), ('META.OBSERVATION.DATE', 'META.OBSERVATION.TIME')),
+    'sha1sum' : 'e4a58192b8d92406b6ea0289da9368fbcdc307dd',
+}
+
+selector = Match({
+    ('IRIS1', 'K', 'CLEAR') : UseAfter({
+        '2015-06-01 00:00:00' : 'tmt_iris_flat_0003.fits',
+    }),
+})
