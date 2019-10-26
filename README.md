@@ -23,7 +23,7 @@ Make sure you are using the CRDS customized for TMT from <https://github.com/oir
 
 ## Development
 
-This repository uses [Git LFS](https ://git-lfs.github.com/) to store the FITS reference files.
+This repository uses [Git LFS](https://git-lfs.github.com/) to store the FITS reference files.
 You need to install the `git-lfs` client and then clone the repository normally to download
 the FITS files.
 
