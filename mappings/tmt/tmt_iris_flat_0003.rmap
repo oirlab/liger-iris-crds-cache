@@ -4,10 +4,10 @@ header = {
     'filekind' : 'FLAT',
     'instrument' : 'IRIS',
     'mapping' : 'REFERENCE',
-    'name' : 'tmt_iris_flat_0001.rmap',
+    'name' : 'tmt_iris_flat_0003.rmap',
     'observatory' : 'TMT',
     'parkey' : (('META.INSTRUMENT.DETECTOR', 'META.INSTRUMENT.FILTER', 'META.INSTRUMENT.PUPIL'), ('META.OBSERVATION.DATE', 'META.OBSERVATION.TIME')),
-    'sha1sum' : 'e4a58192b8d92406b6ea0289da9368fbcdc307dd',
+    'sha1sum' : '9534bf84a7449007c47bc1d74ea6d8a662078ec4',
 }
 
 selector = Match({
