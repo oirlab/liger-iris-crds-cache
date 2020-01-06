@@ -7,7 +7,7 @@ header = {
     'name' : 'tmt_iris_dark_0001.rmap',
     'observatory' : 'TMT',
     'parkey' : (('META.INSTRUMENT.DETECTOR', 'META.SUBARRAY.NAME'), ('META.OBSERVATION.DATE', 'META.OBSERVATION.TIME')),
-    'sha1sum' : 'c215d81e5e24cc2ec543e5b6088df31daddeadda',
+    'sha1sum' : '52b66eff5306641f14dc54bb7706c3d6ca043d73',
     'substitutions' : {
         'META.SUBARRAY.NAME' : {
             'GENERIC' : 'N/A',
@@ -16,6 +16,9 @@ header = {
 }
 
 selector = Match({
+    ('IRIS1', 'CUSTOM') : UseAfter({
+        '1900-01-01 00:00:00' : 'tmt_iris_dark_0001.fits',
+    }),
     ('IRIS1', 'FULL') : UseAfter({
         '1900-01-01 00:00:00' : 'tmt_iris_dark_0001.fits',
     }),
