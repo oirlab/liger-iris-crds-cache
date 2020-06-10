@@ -1,13 +1,13 @@
 header = {
     'classes' : ('Match', 'UseAfter'),
-    'derived_from' : 'tmt_iris_flat_0002.rmap',
+    'derived_from' : 'NONE',
     'filekind' : 'NONLINCOEFF',
     'instrument' : 'IRIS',
     'mapping' : 'REFERENCE',
     'name' : 'tmt_iris_flat_0004.rmap',
     'observatory' : 'TMT',
     'parkey' : (('META.INSTRUMENT.DETECTOR',), ('META.OBSERVATION.DATE', 'META.OBSERVATION.TIME')),
-    'sha1sum' : '830444181dc106e182cdb60be5d008faee8428b8',
+    'sha1sum' : '227212f56e96a28c22fe540eae76cf15e7af81b4',
 }
 
 selector = Match({

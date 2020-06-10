@@ -5,7 +5,7 @@ header = {
     'name' : 'tmt_iris_0001.imap',
     'observatory' : 'TMT',
     'parkey' : ('REFTYPE',),
-    'sha1sum' : '3c15e2fd27439d02da9f1d1055498f47f2cc2445',
+    'sha1sum' : 'ff35acd198d51e98783d7b54c5ca085085d29ae6',
 }
 
 selector = {
@@ -13,5 +13,5 @@ selector = {
     'DFLAT' : 'N/A',
     'FLAT' : 'tmt_iris_flat_0003.rmap',
     'MASK' : 'tmt_iris_mask_0001.rmap',
-    'NONLINCOEFF' : 'tmt_iris_flat_0004.rmap',
+    'NONLINCOEFF' : 'tmt_iris_nonlin_0004.rmap',
 }
