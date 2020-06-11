@@ -4,10 +4,10 @@ header = {
     'filekind' : 'NONLINCOEFF',
     'instrument' : 'IRIS',
     'mapping' : 'REFERENCE',
-    'name' : 'tmt_iris_flat_0004.rmap',
+    'name' : 'tmt_iris_nonlin_0004.rmap',
     'observatory' : 'TMT',
     'parkey' : (('META.INSTRUMENT.DETECTOR',), ('META.OBSERVATION.DATE', 'META.OBSERVATION.TIME')),
-    'sha1sum' : '227212f56e96a28c22fe540eae76cf15e7af81b4',
+    'sha1sum' : 'c81b2bada28046ca7efb9acbe68a1f7062bb1285',
 }
 
 selector = Match({
