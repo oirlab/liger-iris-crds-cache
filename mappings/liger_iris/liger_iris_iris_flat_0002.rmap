@@ -4,14 +4,14 @@ header = {
     'filekind' : 'FLAT',
     'instrument' : 'IRIS',
     'mapping' : 'REFERENCE',
-    'name' : 'tmt_iris_flat_0002.rmap',
-    'observatory' : 'TMT',
+    'name' : 'liger_iris_iris_flat_0002.rmap',
+    'observatory' : 'LIGERIRI',
     'parkey' : (('META.INSTRUMENT.DETECTOR', 'META.INSTRUMENT.FILTER', 'META.INSTRUMENT.PUPIL'), ('META.OBSERVATION.DATE', 'META.OBSERVATION.TIME')),
     'sha1sum' : 'f81dbf82fc132819328edf507414527708df0a5b',
 }
 
 selector = Match({
     ('IRIS1', 'K', 'CLEAR') : UseAfter({
-        '2015-06-01 00:00:00' : 'tmt_iris_flat_0002.fits',
+        '2015-06-01 00:00:00' : 'liger_iris_iris_flat_0002.fits',
     }),
 })

@@ -3,12 +3,12 @@ header = {
     'description' : 'first version',
     'ignore_checksum' : True,
     'mapping' : 'PIPELINE',
-    'name' : 'tmt_0001.pmap',
-    'observatory' : 'TMT',
+    'name' : 'liger_iris_0001.pmap',
+    'observatory' : 'LIGERIRI',
     'parkey' : ('META.INSTRUMENT.NAME',),
     'sha1sum' : '0895daddfafcea2bbfea29b30ba64f63da40fd87',
 }
 
 selector = {
-    'IRIS' : 'tmt_iris_0003.imap',
+    'IRIS' : 'liger_iris_iris_0003.imap',
 }
