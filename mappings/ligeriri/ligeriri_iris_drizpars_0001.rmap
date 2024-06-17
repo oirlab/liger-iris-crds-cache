@@ -4,7 +4,7 @@ header = {
     'filekind' : 'DRIZPARS',
     'instrument' : 'IRIS',
     'mapping' : 'REFERENCE',
-    'name' : 'liger_iris_iris_drizpars_0001.rmap',
+    'name' : 'ligeriri_iris_drizpars_0001.rmap',
     'observatory' : 'LIGERIRI',
     'parkey' : ((), ('META.OBSERVATION.DATE', 'META.OBSERVATION.TIME')),
     'sha1sum' : '65d614154b145d3df9558510fb8cb0ea5c3e8630',

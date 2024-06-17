@@ -10,5 +10,5 @@ header = {
 }
 
 selector = {
-    'IRIS' : 'liger_iris_iris_0003.imap',
+    'IRIS' : 'ligeriri_iris_0003.imap',
 }
