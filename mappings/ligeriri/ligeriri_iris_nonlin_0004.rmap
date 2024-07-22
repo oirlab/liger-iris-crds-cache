@@ -12,6 +12,6 @@ header = {
 
 selector = Match({
     'IRIS1' : UseAfter({
-        '2015-06-01 00:00:00' : 'tmt_iris_nonlin_coeff.fits',
+        '2015-06-01 00:00:00' : 'liger_iris_iris_nonlin_coeff.fits',
     }),
 })
