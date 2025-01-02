@@ -2,17 +2,16 @@ header = {
     'derived_from' : '',
     'instrument' : 'IRIS',
     'mapping' : 'INSTRUMENT',
-    'name' : 'ligeriri_iris_0003.imap',
+    'name' : 'ligeriri_iris_0001.imap',
     'observatory' : 'LIGERIRI',
-    'parkey' : ('REFTYPE',),
+    'parkey' : ('META.EXPOSURE.IMTYPE',),
     'sha1sum' : '01223a5f8f5dfd8b584809bfb2ae88a5d8b8ccdd',
 }
 
 selector = {
     'DARK' : 'ligeriri_iris_dark_0001.rmap',
-    'DFLAT' : 'N/A',
     'DRIZPARS' : 'ligeriri_iris_drizpars_0001.rmap',
-    'FLAT' : 'ligeriri_iris_flat_0003.rmap',
-    'MASK' : 'ligeriri_iris_mask_0001.rmap',
-    'NONLINCOEFF' : 'ligeriri_iris_nonlin_0004.rmap',
+    'FLAT' : 'ligeriri_iris_flat_0001.rmap',
+    'DQ' : 'ligeriri_iris_dq_0001.rmap',
+    'NONLINCOEFF' : 'ligeriri_iris_nonlin_0001.rmap',
 }

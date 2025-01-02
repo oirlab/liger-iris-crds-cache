@@ -6,7 +6,7 @@ header = {
     'mapping' : 'REFERENCE',
     'name' : 'ligeriri_iris_drizpars_0001.rmap',
     'observatory' : 'LIGERIRI',
-    'parkey' : ((), ('META.OBSERVATION.DATE', 'META.OBSERVATION.TIME')),
+    'parkey' : ((), ('META.DATE',)),
     'sha1sum' : '65d614154b145d3df9558510fb8cb0ea5c3e8630',
 }
 

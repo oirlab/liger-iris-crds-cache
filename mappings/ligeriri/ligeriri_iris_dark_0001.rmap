@@ -1,25 +1,23 @@
 header = {
-    'classes' : ('Match', 'UseAfter'),
+    'classes' : ('Match', 'ClosestTime'),
     'derived_from' : 'NONE',
     'filekind' : 'DARK',
     'instrument' : 'IRIS',
     'mapping' : 'REFERENCE',
     'name' : 'ligeriri_iris_dark_0001.rmap',
     'observatory' : 'LIGERIRI',
-    'parkey' : (('META.INSTRUMENT.DETECTOR', 'META.SUBARRAY.NAME'), ('META.DATE',)),
+    'parkey' : (
+        ('META.INSTRUMENT.ERA', 'META.INSTRUMENT.DETECTOR', 'META.EXPOSURE.READMODE', 'META.SUBARRAY.NAME'),
+        ('META.DATE',)
+    ),
     'sha1sum' : '52b66eff5306641f14dc54bb7706c3d6ca043d73',
-    'substitutions' : {
-        'META.SUBARRAY.NAME' : {
-            'GENERIC' : 'N/A',
-        },
-    },
 }
 
 selector = Match({
-    ('IRIS1', 'CUSTOM') : UseAfter({
-        '1900-01-01 00:00:00' : 'liger_iris_iris_dark_0001.fits',
+    ('0.0.0', 'IMG1', 'DEFAULT', 'FULL') : ClosestTime({
+        '2024-01-01 00:00:00' : 'IRIS_IMG1_DARK_20240101T000000_0.0.1.fits',
     }),
-    ('IRIS1', 'FULL') : UseAfter({
-        '1900-01-01 00:00:00' : 'liger_iris_iris_dark_0001.fits',
-    }),
+    ('0.0.0', 'IMG1', 'DEFAULT', 'CUSTOM') : ClosestTime({
+        '2024-01-01 00:00:00' : 'IRIS_IMG1_DARK_20240101T000000_0.0.1.fits',
+    })
 })

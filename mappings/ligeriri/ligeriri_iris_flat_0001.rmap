@@ -1,0 +1,20 @@
+header = {
+    'classes' : ('Match', 'ClosestTime'),
+    'derived_from' : 'NONE',
+    'filekind' : 'FLAT',
+    'instrument' : 'IRIS',
+    'mapping' : 'REFERENCE',
+    'name' : 'ligeriri_iris_flat_0001.rmap',
+    'observatory' : 'LIGERIRI',
+    'parkey' : (
+        ('META.INSTRUMENT.ERA', 'META.INSTRUMENT.DETECTOR', 'META.EXPOSURE.READMODE', 'META.INSTRUMENT.FILTER', 'META.INSTRUMENT.PUPIL'),
+        ('META.DATE',)
+    ),
+    'sha1sum' : '9534bf84a7449007c47bc1d74ea6d8a662078ec4',
+}
+
+selector = Match({
+    ('0.0.0', 'IMG1', 'DEFAULT', 'Y', 'CLEAR') : ClosestTime({
+        '2024-01-01 00:00:00' : 'IRIS_IMG1_FLAT_20240101T000000_0.0.1.fits',
+    })
+})

@@ -1,0 +1,17 @@
+header = {
+    'derived_from' : '',
+    'instrument' : 'Liger',
+    'mapping' : 'INSTRUMENT',
+    'name' : 'ligeriri_liger_0001.imap',
+    'observatory' : 'LIGERIRI',
+    'parkey' : ('META.EXPOSURE.IMTYPE',),
+    'sha1sum' : '01223a5f8f5dfd8b584809bfb2ae88a5d8b8ccdd',
+}
+
+selector = {
+    'DARK' : 'ligeriri_liger_dark_0001.rmap',
+    'DRIZPARS' : 'ligeriri_liger_drizpars_0001.rmap',
+    'FLAT' : 'ligeriri_liger_flat_0001.rmap',
+    'DQ' : 'ligeriri_liger_dq_0001.rmap',
+    'NONLINCOEFF' : 'ligeriri_liger_nonlin_0001.rmap',
+}
