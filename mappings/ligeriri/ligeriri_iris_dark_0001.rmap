@@ -15,9 +15,9 @@ header = {
 
 selector = Match({
     ('0.0.0', 'IMG1', 'DEFAULT', 'FULL') : ClosestTime({
-        '2024-01-01 00:00:00' : 'IRIS_IMG1_DARK_20240101T000000_0.0.1.fits',
+        '2024-09-24 00:00:00' : 'IRIS_IMG1_DARK_20240924T000000_0.0.1.fits',
     }),
     ('0.0.0', 'IMG1', 'DEFAULT', 'CUSTOM') : ClosestTime({
-        '2024-01-01 00:00:00' : 'IRIS_IMG1_DARK_20240101T000000_0.0.1.fits',
+        '2024-09-24 00:00:00' : 'IRIS_IMG1_DARK_20240924T000000_0.0.1.fits',
     })
 })
