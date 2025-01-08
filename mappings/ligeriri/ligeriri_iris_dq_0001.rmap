@@ -1,12 +1,12 @@
 header = {
     'classes' : ('Match', 'UseAfter'),
     'derived_from' : 'NONE',
-    'filekind' : 'MASK',
+    'filekind' : 'DQ',
     'instrument' : 'IRIS',
     'mapping' : 'REFERENCE',
-    'name' : 'ligeriri_iris_mask_0001.rmap',
+    'name' : 'ligeriri_iris_dq_0001.rmap',
     'observatory' : 'LIGERIRI',
-    'parkey' : (('META.INSTRUMENT.DETECTOR', 'META.SUBARRAY.NAME'), ('META.OBSERVATION.DATE', 'META.OBSERVATION.TIME')),
+    'parkey' : (('META.INSTRUMENT.DETECTOR', 'META.SUBARRAY.NAME'), ('META.DATE',)),
     'sha1sum' : '1ddb5e5ff9088bddebd1eee7f3617b12232cc856',
     'substitutions' : {
         'META.SUBARRAY.NAME' : {
@@ -16,7 +16,7 @@ header = {
 }
 
 selector = Match({
-    ('IRIS1', 'GENERIC') : UseAfter({
-        '2015-10-01 00:00:00' : 'liger_iris_iris_mask_0001.fits',
+    ('IMG1', 'GENERIC') : UseAfter({
+        '2015-10-01 00:00:00' : 'IRIS_DQ.fits',
     }),
 })
